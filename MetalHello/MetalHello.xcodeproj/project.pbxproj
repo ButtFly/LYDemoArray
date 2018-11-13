@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064F21F62199489300F24D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 064F21F52199489300F24D14 /* AppDelegate.m */; };
+		064F21F92199489300F24D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064F21F82199489300F24D14 /* ViewController.m */; };
+		064F21FC2199489300F24D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064F21FA2199489300F24D14 /* Main.storyboard */; };
+		064F21FE2199489800F24D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064F21FD2199489800F24D14 /* Assets.xcassets */; };
+		064F22012199489800F24D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064F21FF2199489800F24D14 /* LaunchScreen.storyboard */; };
+		064F22042199489800F24D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 064F22032199489800F24D14 /* main.m */; };
+		064F220E2199489900F24D14 /* MetalHelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 064F220D2199489900F24D14 /* MetalHelloTests.m */; };
+		064F22192199489900F24D14 /* MetalHelloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 064F22182199489900F24D14 /* MetalHelloUITests.m */; };
+		064F2227219950EE00F24D14 /* Hello.metal in Sources */ = {isa = PBXBuildFile; fileRef = 064F2226219950EE00F24D14 /* Hello.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		064F220A2199489900F24D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064F21E92199489300F24D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064F21F02199489300F24D14;
+			remoteInfo = MetalHello;
+		};
+		064F22152199489900F24D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064F21E92199489300F24D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064F21F02199489300F24D14;
+			remoteInfo = MetalHello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064F21F12199489300F24D14 /* MetalHello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalHello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		064F21F42199489300F24D14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		064F21F52199489300F24D14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		064F21F72199489300F24D14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		064F21F82199489300F24D14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		064F21FB2199489300F24D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		064F21FD2199489800F24D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		064F22002199489800F24D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		064F22022199489800F24D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064F22032199489800F24D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		064F22092199489900F24D14 /* MetalHelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalHelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		064F220D2199489900F24D14 /* MetalHelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalHelloTests.m; sourceTree = "<group>"; };
+		064F220F2199489900F24D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064F22142199489900F24D14 /* MetalHelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalHelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		064F22182199489900F24D14 /* MetalHelloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalHelloUITests.m; sourceTree = "<group>"; };
+		064F221A2199489900F24D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064F2226219950EE00F24D14 /* Hello.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Hello.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064F21EE2199489300F24D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064F22062199489900F24D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064F22112199489900F24D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064F21E82199489300F24D14 = {
+			isa = PBXGroup;
+			children = (
+				064F21F32199489300F24D14 /* MetalHello */,
+				064F220C2199489900F24D14 /* MetalHelloTests */,
+				064F22172199489900F24D14 /* MetalHelloUITests */,
+				064F21F22199489300F24D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		064F21F22199489300F24D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064F21F12199489300F24D14 /* MetalHello.app */,
+				064F22092199489900F24D14 /* MetalHelloTests.xctest */,
+				064F22142199489900F24D14 /* MetalHelloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		064F21F32199489300F24D14 /* MetalHello */ = {
+			isa = PBXGroup;
+			children = (
+				064F21F42199489300F24D14 /* AppDelegate.h */,
+				064F21F52199489300F24D14 /* AppDelegate.m */,
+				064F21F72199489300F24D14 /* ViewController.h */,
+				064F21F82199489300F24D14 /* ViewController.m */,
+				064F21FA2199489300F24D14 /* Main.storyboard */,
+				064F21FD2199489800F24D14 /* Assets.xcassets */,
+				064F21FF2199489800F24D14 /* LaunchScreen.storyboard */,
+				064F22022199489800F24D14 /* Info.plist */,
+				064F22032199489800F24D14 /* main.m */,
+				064F2226219950EE00F24D14 /* Hello.metal */,
+			);
+			path = MetalHello;
+			sourceTree = "<group>";
+		};
+		064F220C2199489900F24D14 /* MetalHelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				064F220D2199489900F24D14 /* MetalHelloTests.m */,
+				064F220F2199489900F24D14 /* Info.plist */,
+			);
+			path = MetalHelloTests;
+			sourceTree = "<group>";
+		};
+		064F22172199489900F24D14 /* MetalHelloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				064F22182199489900F24D14 /* MetalHelloUITests.m */,
+				064F221A2199489900F24D14 /* Info.plist */,
+			);
+			path = MetalHelloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064F21F02199489300F24D14 /* MetalHello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064F221D2199489900F24D14 /* Build configuration list for PBXNativeTarget "MetalHello" */;
+			buildPhases = (
+				064F21ED2199489300F24D14 /* Sources */,
+				064F21EE2199489300F24D14 /* Frameworks */,
+				064F21EF2199489300F24D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalHello;
+			productName = MetalHello;
+			productReference = 064F21F12199489300F24D14 /* MetalHello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		064F22082199489900F24D14 /* MetalHelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064F22202199489900F24D14 /* Build configuration list for PBXNativeTarget "MetalHelloTests" */;
+			buildPhases = (
+				064F22052199489900F24D14 /* Sources */,
+				064F22062199489900F24D14 /* Frameworks */,
+				064F22072199489900F24D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064F220B2199489900F24D14 /* PBXTargetDependency */,
+			);
+			name = MetalHelloTests;
+			productName = MetalHelloTests;
+			productReference = 064F22092199489900F24D14 /* MetalHelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		064F22132199489900F24D14 /* MetalHelloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064F22232199489900F24D14 /* Build configuration list for PBXNativeTarget "MetalHelloUITests" */;
+			buildPhases = (
+				064F22102199489900F24D14 /* Sources */,
+				064F22112199489900F24D14 /* Frameworks */,
+				064F22122199489900F24D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064F22162199489900F24D14 /* PBXTargetDependency */,
+			);
+			name = MetalHelloUITests;
+			productName = MetalHelloUITests;
+			productReference = 064F22142199489900F24D14 /* MetalHelloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064F21E92199489300F24D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "余河川";
+				TargetAttributes = {
+					064F21F02199489300F24D14 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					064F22082199489900F24D14 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 064F21F02199489300F24D14;
+					};
+					064F22132199489900F24D14 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 064F21F02199489300F24D14;
+					};
+				};
+			};
+			buildConfigurationList = 064F21EC2199489300F24D14 /* Build configuration list for PBXProject "MetalHello" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 064F21E82199489300F24D14;
+			productRefGroup = 064F21F22199489300F24D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064F21F02199489300F24D14 /* MetalHello */,
+				064F22082199489900F24D14 /* MetalHelloTests */,
+				064F22132199489900F24D14 /* MetalHelloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064F21EF2199489300F24D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064F22012199489800F24D14 /* LaunchScreen.storyboard in Resources */,
+				064F21FE2199489800F24D14 /* Assets.xcassets in Resources */,
+				064F21FC2199489300F24D14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064F22072199489900F24D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064F22122199489900F24D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064F21ED2199489300F24D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064F2227219950EE00F24D14 /* Hello.metal in Sources */,
+				064F21F92199489300F24D14 /* ViewController.m in Sources */,
+				064F22042199489800F24D14 /* main.m in Sources */,
+				064F21F62199489300F24D14 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064F22052199489900F24D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064F220E2199489900F24D14 /* MetalHelloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064F22102199489900F24D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064F22192199489900F24D14 /* MetalHelloUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		064F220B2199489900F24D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064F21F02199489300F24D14 /* MetalHello */;
+			targetProxy = 064F220A2199489900F24D14 /* PBXContainerItemProxy */;
+		};
+		064F22162199489900F24D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064F21F02199489300F24D14 /* MetalHello */;
+			targetProxy = 064F22152199489900F24D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		064F21FA2199489300F24D14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064F21FB2199489300F24D14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		064F21FF2199489800F24D14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064F22002199489800F24D14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		064F221B2199489900F24D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		064F221C2199489900F24D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		064F221E2199489900F24D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = MetalHello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.MetalHello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		064F221F2199489900F24D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = MetalHello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.MetalHello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		064F22212199489900F24D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = MetalHelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.MetalHelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalHello.app/MetalHello";
+			};
+			name = Debug;
+		};
+		064F22222199489900F24D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = MetalHelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.MetalHelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalHello.app/MetalHello";
+			};
+			name = Release;
+		};
+		064F22242199489900F24D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = MetalHelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.MetalHelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetalHello;
+			};
+			name = Debug;
+		};
+		064F22252199489900F24D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = MetalHelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.MetalHelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetalHello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064F21EC2199489300F24D14 /* Build configuration list for PBXProject "MetalHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064F221B2199489900F24D14 /* Debug */,
+				064F221C2199489900F24D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064F221D2199489900F24D14 /* Build configuration list for PBXNativeTarget "MetalHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064F221E2199489900F24D14 /* Debug */,
+				064F221F2199489900F24D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064F22202199489900F24D14 /* Build configuration list for PBXNativeTarget "MetalHelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064F22212199489900F24D14 /* Debug */,
+				064F22222199489900F24D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064F22232199489900F24D14 /* Build configuration list for PBXNativeTarget "MetalHelloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064F22242199489900F24D14 /* Debug */,
+				064F22252199489900F24D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 064F21E92199489300F24D14 /* Project object */;
+}
