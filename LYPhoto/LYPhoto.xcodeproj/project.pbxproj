@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B57C99219D14EB00E7EA18 /* LYAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57C98219D14EB00E7EA18 /* LYAppDelegate.swift */; };
+		06B57CA0219D14F000E7EA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B57C9F219D14F000E7EA18 /* Assets.xcassets */; };
+		06B57CA3219D14F000E7EA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B57CA1219D14F000E7EA18 /* LaunchScreen.storyboard */; };
+		06B57CAE219D14F000E7EA18 /* LYPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57CAD219D14F000E7EA18 /* LYPhotoTests.swift */; };
+		06B57CB9219D14F000E7EA18 /* LYPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57CB8219D14F000E7EA18 /* LYPhotoUITests.swift */; };
+		06B57CCD219D160A00E7EA18 /* LYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57CCC219D160A00E7EA18 /* LYViewController.swift */; };
+		06B57CCF219D1DBE00E7EA18 /* LYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57CCE219D1DBE00E7EA18 /* LYNavigationController.swift */; };
+		06B57CD2219D1E9500E7EA18 /* LYRootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57CD1219D1E9500E7EA18 /* LYRootNavigationController.swift */; };
+		06B57CD4219D23E700E7EA18 /* Basic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B57CD3219D23E700E7EA18 /* Basic.xcassets */; };
+		06B57CD9219D371000E7EA18 /* LYNNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57CD8219D371000E7EA18 /* LYNNViewController.swift */; };
+		06B57CDC219D38A800E7EA18 /* LYPhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57CDB219D38A800E7EA18 /* LYPhotoLibraryViewController.swift */; };
+		06B57CE0219D41D900E7EA18 /* UIView+Snapshoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B57CDF219D41D800E7EA18 /* UIView+Snapshoot.swift */; };
+		06B57CE2219D447900E7EA18 /* Globe.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B57CE1219D447900E7EA18 /* Globe.xcassets */; };
+		4D54B7C133190154FAE5CB65 /* Pods_LYPhotoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9E0EBB4B8D9B456349B5C4 /* Pods_LYPhotoUITests.framework */; };
+		55230229EE93F8CDE8369C63 /* Pods_LYPhotoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B889A7ADC52BA059AA48AF2 /* Pods_LYPhotoTests.framework */; };
+		FDDF1434D7D847B29F2EB62E /* Pods_LYPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29A96085C4B8F7349ADE2D /* Pods_LYPhoto.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06B57CAA219D14F000E7EA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B57C8D219D14EB00E7EA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B57C94219D14EB00E7EA18;
+			remoteInfo = LYPhoto;
+		};
+		06B57CB5219D14F000E7EA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B57C8D219D14EB00E7EA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B57C94219D14EB00E7EA18;
+			remoteInfo = LYPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B57C95219D14EB00E7EA18 /* LYPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B57C98219D14EB00E7EA18 /* LYAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAppDelegate.swift; sourceTree = "<group>"; };
+		06B57C9F219D14F000E7EA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06B57CA2219D14F000E7EA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06B57CA4219D14F000E7EA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B57CA9219D14F000E7EA18 /* LYPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B57CAD219D14F000E7EA18 /* LYPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPhotoTests.swift; sourceTree = "<group>"; };
+		06B57CAF219D14F000E7EA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B57CB4219D14F000E7EA18 /* LYPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B57CB8219D14F000E7EA18 /* LYPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPhotoUITests.swift; sourceTree = "<group>"; };
+		06B57CBA219D14F000E7EA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B57CCC219D160A00E7EA18 /* LYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYViewController.swift; sourceTree = "<group>"; };
+		06B57CCE219D1DBE00E7EA18 /* LYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNavigationController.swift; sourceTree = "<group>"; };
+		06B57CD1219D1E9500E7EA18 /* LYRootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRootNavigationController.swift; sourceTree = "<group>"; };
+		06B57CD3219D23E700E7EA18 /* Basic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Basic.xcassets; sourceTree = "<group>"; };
+		06B57CD8219D371000E7EA18 /* LYNNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNNViewController.swift; sourceTree = "<group>"; };
+		06B57CDB219D38A800E7EA18 /* LYPhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		06B57CDF219D41D800E7EA18 /* UIView+Snapshoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshoot.swift"; sourceTree = "<group>"; };
+		06B57CE1219D447900E7EA18 /* Globe.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Globe.xcassets; sourceTree = "<group>"; };
+		0EF302655D8796AE6C914C81 /* Pods-LYPhotoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPhotoTests.release.xcconfig"; path = "Target Support Files/Pods-LYPhotoTests/Pods-LYPhotoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B889A7ADC52BA059AA48AF2 /* Pods_LYPhotoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYPhotoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5CD125419D330D5EF9AC26 /* Pods-LYPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPhoto.debug.xcconfig"; path = "Target Support Files/Pods-LYPhoto/Pods-LYPhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		5D29A96085C4B8F7349ADE2D /* Pods_LYPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A18845B3C70C51377BEB9BF /* Pods-LYPhotoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPhotoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LYPhotoUITests/Pods-LYPhotoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D9E0EBB4B8D9B456349B5C4 /* Pods_LYPhotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYPhotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C21C584AECEFD2D49AA68 /* Pods-LYPhotoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPhotoUITests.release.xcconfig"; path = "Target Support Files/Pods-LYPhotoUITests/Pods-LYPhotoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4488120C723C0747665912E /* Pods-LYPhotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPhotoTests.debug.xcconfig"; path = "Target Support Files/Pods-LYPhotoTests/Pods-LYPhotoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F63A8E94A418977E6119BDDF /* Pods-LYPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPhoto.release.xcconfig"; path = "Target Support Files/Pods-LYPhoto/Pods-LYPhoto.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06B57C92219D14EB00E7EA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDF1434D7D847B29F2EB62E /* Pods_LYPhoto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B57CA6219D14F000E7EA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55230229EE93F8CDE8369C63 /* Pods_LYPhotoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B57CB1219D14F000E7EA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D54B7C133190154FAE5CB65 /* Pods_LYPhotoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B57C8C219D14EB00E7EA18 = {
+			isa = PBXGroup;
+			children = (
+				06B57C97219D14EB00E7EA18 /* LYPhoto */,
+				06B57CAC219D14F000E7EA18 /* LYPhotoTests */,
+				06B57CB7219D14F000E7EA18 /* LYPhotoUITests */,
+				06B57C96219D14EB00E7EA18 /* Products */,
+				CE62E7FF9BC1C57D73EFEAAE /* Pods */,
+				D46D70A70C542BE2FB5BC4DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06B57C96219D14EB00E7EA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B57C95219D14EB00E7EA18 /* LYPhoto.app */,
+				06B57CA9219D14F000E7EA18 /* LYPhotoTests.xctest */,
+				06B57CB4219D14F000E7EA18 /* LYPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06B57C97219D14EB00E7EA18 /* LYPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CC6219D153900E7EA18 /* Classes */,
+				06B57C98219D14EB00E7EA18 /* LYAppDelegate.swift */,
+				06B57CA1219D14F000E7EA18 /* LaunchScreen.storyboard */,
+				06B57CA4219D14F000E7EA18 /* Info.plist */,
+				06B57C9F219D14F000E7EA18 /* Assets.xcassets */,
+				06B57CE1219D447900E7EA18 /* Globe.xcassets */,
+				06B57CD3219D23E700E7EA18 /* Basic.xcassets */,
+			);
+			path = LYPhoto;
+			sourceTree = "<group>";
+		};
+		06B57CAC219D14F000E7EA18 /* LYPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CAD219D14F000E7EA18 /* LYPhotoTests.swift */,
+				06B57CAF219D14F000E7EA18 /* Info.plist */,
+			);
+			path = LYPhotoTests;
+			sourceTree = "<group>";
+		};
+		06B57CB7219D14F000E7EA18 /* LYPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CB8219D14F000E7EA18 /* LYPhotoUITests.swift */,
+				06B57CBA219D14F000E7EA18 /* Info.plist */,
+			);
+			path = LYPhotoUITests;
+			sourceTree = "<group>";
+		};
+		06B57CC6219D153900E7EA18 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CCA219D159200E7EA18 /* Globe */,
+				06B57CC8219D159200E7EA18 /* Views */,
+				06B57CC7219D155300E7EA18 /* Basic */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		06B57CC7219D155300E7EA18 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CCB219D15EA00E7EA18 /* UIKit */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		06B57CC8219D159200E7EA18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CDA219D386200E7EA18 /* 相册 */,
+				06B57CD0219D1E4E00E7EA18 /* 根控制器 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		06B57CCA219D159200E7EA18 /* Globe */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CD5219D33CE00E7EA18 /* UIKit */,
+			);
+			path = Globe;
+			sourceTree = "<group>";
+		};
+		06B57CCB219D15EA00E7EA18 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CCC219D160A00E7EA18 /* LYViewController.swift */,
+				06B57CCE219D1DBE00E7EA18 /* LYNavigationController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		06B57CD0219D1E4E00E7EA18 /* 根控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CD1219D1E9500E7EA18 /* LYRootNavigationController.swift */,
+			);
+			path = "根控制器";
+			sourceTree = "<group>";
+		};
+		06B57CD5219D33CE00E7EA18 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CDE219D41B300E7EA18 /* UIView */,
+				06B57CDD219D414A00E7EA18 /* UIButton */,
+				06B57CD8219D371000E7EA18 /* LYNNViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		06B57CDA219D386200E7EA18 /* 相册 */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CDB219D38A800E7EA18 /* LYPhotoLibraryViewController.swift */,
+			);
+			path = "相册";
+			sourceTree = "<group>";
+		};
+		06B57CDD219D414A00E7EA18 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		06B57CDE219D41B300E7EA18 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				06B57CDF219D41D800E7EA18 /* UIView+Snapshoot.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CE62E7FF9BC1C57D73EFEAAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CD125419D330D5EF9AC26 /* Pods-LYPhoto.debug.xcconfig */,
+				F63A8E94A418977E6119BDDF /* Pods-LYPhoto.release.xcconfig */,
+				D4488120C723C0747665912E /* Pods-LYPhotoTests.debug.xcconfig */,
+				0EF302655D8796AE6C914C81 /* Pods-LYPhotoTests.release.xcconfig */,
+				8A18845B3C70C51377BEB9BF /* Pods-LYPhotoUITests.debug.xcconfig */,
+				B66C21C584AECEFD2D49AA68 /* Pods-LYPhotoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D46D70A70C542BE2FB5BC4DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D29A96085C4B8F7349ADE2D /* Pods_LYPhoto.framework */,
+				2B889A7ADC52BA059AA48AF2 /* Pods_LYPhotoTests.framework */,
+				9D9E0EBB4B8D9B456349B5C4 /* Pods_LYPhotoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06B57C94219D14EB00E7EA18 /* LYPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B57CBD219D14F000E7EA18 /* Build configuration list for PBXNativeTarget "LYPhoto" */;
+			buildPhases = (
+				7470F292572B7546500E6A3F /* [CP] Check Pods Manifest.lock */,
+				06B57C91219D14EB00E7EA18 /* Sources */,
+				06B57C92219D14EB00E7EA18 /* Frameworks */,
+				06B57C93219D14EB00E7EA18 /* Resources */,
+				53E0E4B9D3FAA4B66EB96F52 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPhoto;
+			productName = LYPhoto;
+			productReference = 06B57C95219D14EB00E7EA18 /* LYPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06B57CA8219D14F000E7EA18 /* LYPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B57CC0219D14F000E7EA18 /* Build configuration list for PBXNativeTarget "LYPhotoTests" */;
+			buildPhases = (
+				D04E8931F056B5DA2F3F7380 /* [CP] Check Pods Manifest.lock */,
+				06B57CA5219D14F000E7EA18 /* Sources */,
+				06B57CA6219D14F000E7EA18 /* Frameworks */,
+				06B57CA7219D14F000E7EA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06B57CAB219D14F000E7EA18 /* PBXTargetDependency */,
+			);
+			name = LYPhotoTests;
+			productName = LYPhotoTests;
+			productReference = 06B57CA9219D14F000E7EA18 /* LYPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06B57CB3219D14F000E7EA18 /* LYPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B57CC3219D14F000E7EA18 /* Build configuration list for PBXNativeTarget "LYPhotoUITests" */;
+			buildPhases = (
+				AC148E98999429457BDFF8EF /* [CP] Check Pods Manifest.lock */,
+				06B57CB0219D14F000E7EA18 /* Sources */,
+				06B57CB1219D14F000E7EA18 /* Frameworks */,
+				06B57CB2219D14F000E7EA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06B57CB6219D14F000E7EA18 /* PBXTargetDependency */,
+			);
+			name = LYPhotoUITests;
+			productName = LYPhotoUITests;
+			productReference = 06B57CB4219D14F000E7EA18 /* LYPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06B57C8D219D14EB00E7EA18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "余河川";
+				TargetAttributes = {
+					06B57C94219D14EB00E7EA18 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					06B57CA8219D14F000E7EA18 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 06B57C94219D14EB00E7EA18;
+					};
+					06B57CB3219D14F000E7EA18 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 06B57C94219D14EB00E7EA18;
+					};
+				};
+			};
+			buildConfigurationList = 06B57C90219D14EB00E7EA18 /* Build configuration list for PBXProject "LYPhoto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06B57C8C219D14EB00E7EA18;
+			productRefGroup = 06B57C96219D14EB00E7EA18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06B57C94219D14EB00E7EA18 /* LYPhoto */,
+				06B57CA8219D14F000E7EA18 /* LYPhotoTests */,
+				06B57CB3219D14F000E7EA18 /* LYPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06B57C93219D14EB00E7EA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B57CA3219D14F000E7EA18 /* LaunchScreen.storyboard in Resources */,
+				06B57CD4219D23E700E7EA18 /* Basic.xcassets in Resources */,
+				06B57CA0219D14F000E7EA18 /* Assets.xcassets in Resources */,
+				06B57CE2219D447900E7EA18 /* Globe.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B57CA7219D14F000E7EA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B57CB2219D14F000E7EA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53E0E4B9D3FAA4B66EB96F52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYPhoto/Pods-LYPhoto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYPhoto/Pods-LYPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7470F292572B7546500E6A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC148E98999429457BDFF8EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYPhotoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04E8931F056B5DA2F3F7380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYPhotoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06B57C91219D14EB00E7EA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B57CD2219D1E9500E7EA18 /* LYRootNavigationController.swift in Sources */,
+				06B57C99219D14EB00E7EA18 /* LYAppDelegate.swift in Sources */,
+				06B57CDC219D38A800E7EA18 /* LYPhotoLibraryViewController.swift in Sources */,
+				06B57CCF219D1DBE00E7EA18 /* LYNavigationController.swift in Sources */,
+				06B57CE0219D41D900E7EA18 /* UIView+Snapshoot.swift in Sources */,
+				06B57CCD219D160A00E7EA18 /* LYViewController.swift in Sources */,
+				06B57CD9219D371000E7EA18 /* LYNNViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B57CA5219D14F000E7EA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B57CAE219D14F000E7EA18 /* LYPhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B57CB0219D14F000E7EA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B57CB9219D14F000E7EA18 /* LYPhotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06B57CAB219D14F000E7EA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06B57C94219D14EB00E7EA18 /* LYPhoto */;
+			targetProxy = 06B57CAA219D14F000E7EA18 /* PBXContainerItemProxy */;
+		};
+		06B57CB6219D14F000E7EA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06B57C94219D14EB00E7EA18 /* LYPhoto */;
+			targetProxy = 06B57CB5219D14F000E7EA18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06B57CA1219D14F000E7EA18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B57CA2219D14F000E7EA18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06B57CBB219D14F000E7EA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06B57CBC219D14F000E7EA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06B57CBE219D14F000E7EA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5CD125419D330D5EF9AC26 /* Pods-LYPhoto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = LYPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.LYPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06B57CBF219D14F000E7EA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63A8E94A418977E6119BDDF /* Pods-LYPhoto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = LYPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.LYPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06B57CC1219D14F000E7EA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4488120C723C0747665912E /* Pods-LYPhotoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = LYPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.LYPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPhoto.app/LYPhoto";
+			};
+			name = Debug;
+		};
+		06B57CC2219D14F000E7EA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF302655D8796AE6C914C81 /* Pods-LYPhotoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = LYPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.LYPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPhoto.app/LYPhoto";
+			};
+			name = Release;
+		};
+		06B57CC4219D14F000E7EA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A18845B3C70C51377BEB9BF /* Pods-LYPhotoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = LYPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.LYPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPhoto;
+			};
+			name = Debug;
+		};
+		06B57CC5219D14F000E7EA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66C21C584AECEFD2D49AA68 /* Pods-LYPhotoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43X6Z88D7P;
+				INFOPLIST_FILE = LYPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttfly.LYPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B57C90219D14EB00E7EA18 /* Build configuration list for PBXProject "LYPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B57CBB219D14F000E7EA18 /* Debug */,
+				06B57CBC219D14F000E7EA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06B57CBD219D14F000E7EA18 /* Build configuration list for PBXNativeTarget "LYPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B57CBE219D14F000E7EA18 /* Debug */,
+				06B57CBF219D14F000E7EA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06B57CC0219D14F000E7EA18 /* Build configuration list for PBXNativeTarget "LYPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B57CC1219D14F000E7EA18 /* Debug */,
+				06B57CC2219D14F000E7EA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06B57CC3219D14F000E7EA18 /* Build configuration list for PBXNativeTarget "LYPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B57CC4219D14F000E7EA18 /* Debug */,
+				06B57CC5219D14F000E7EA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06B57C8D219D14EB00E7EA18 /* Project object */;
+}

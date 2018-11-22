@@ -1,0 +1,6 @@
+framework module Pods_LYPhotoTests {
+  umbrella header "Pods-LYPhotoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

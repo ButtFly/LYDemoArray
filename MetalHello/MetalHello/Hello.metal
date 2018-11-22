@@ -28,9 +28,9 @@ vertex VertexOut myVertexShader(const device VertexIn* vertexArray[[buffer(0)]],
     
 }
 
-fragment float4 myFragmentShader(VertexOut VertexIn [[stage_in]], texture2d<float, access::sample> inputImage   [[ texture(0) ]], textureSampler [[sampler(0)]]) {
+fragment float4 myFragmentShader(VertexOut vertexIn [[stage_in]], texture2d<float, access::sample> inputImage   [[ texture(0) ]], sampler textureSampler [[sampler(0)]]) {
     
-    float4 color = inputImage.sample(textureSampler, VertexIn.texCoords);
+    float4 color = inputImage.sample(textureSampler, vertexIn.texCoords);
     return color;
     
 }
