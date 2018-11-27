@@ -56,7 +56,8 @@ class ViewController: UIViewController, MTKViewDelegate {
             let commandEncoder = commandBuffer.makeComputeCommandEncoder() {
             commandEncoder.setComputePipelineState(cps)
             commandEncoder.setTexture(drawable.texture, index: 0)
-            let threadGroupCount = MTLSizeMake(8, 8, 1)
+            commandEncoder.setBuffer(device.makeBuffer(bytes: [Float(1)], length: MemoryLayout<Float>.size, options: []), offset: 0, index: 0)
+            let threadGroupCount = MTLSizeMake(Int(UIScreen.main.scale), Int(UIScreen.main.scale), 1)
             let threadGroups = MTLSizeMake(drawable.texture.width / threadGroupCount.width, drawable.texture.height / threadGroupCount.height, 1)
             commandEncoder.dispatchThreadgroups(threadGroups, threadsPerThreadgroup: threadGroupCount)
             commandEncoder.endEncoding()

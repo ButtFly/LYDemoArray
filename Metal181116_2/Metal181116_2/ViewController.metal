@@ -9,30 +9,37 @@
 #include <metal_stdlib>
 using namespace metal;
 
-float dist(float2 point, float2 center, float radius)
-{
+float dist(float2 point, float2 center, float radius) {
     return length(point - center) - radius;
 }
+
+float2 translateScreenPointToWorldPoint(float2 point, float2 screenSize) {
+    
+    return float2(2 * point.x / screenSize.x - 1, 2 * point.y / screenSize.y - 1);
+    
+}
+
+struct Vertex {
+    float x;
+};
 
 kernel void compute(texture2d<float, access::write> output [[texture(0)]],
                     uint2 gid [[thread_position_in_grid]])
 {
-//    int width = output.get_width();
-//    int height = output.get_height();
-//    float red = float(gid.x) / float(width);
-//    float green = float(gid.y) / float(height);
-//    float2 uv = float2(gid) / float2(width, height);
-//    uv = uv * 2.0 - 1.0;
-//    float distToCircle = dist(uv, float2(0), 0.5);
-//    float distToCircle2 = dist(uv, float2(-0.1, 0.1), 0.5);
-//    bool inside = distToCircle2 < 0;
-//    output.write(inside ? float4(0) : float4(1, 0.7, 0, 1) * (1 - distToCircle), gid);
-    
     int width = output.get_width();
     int height = output.get_height();
-    float red = float(gid.x) / float(width);
-    float green = float(gid.y) / float(height);
-    output.write(float4(red, green, 0, 1), gid);
+    float2 point = float2(gid.x, gid.y);
+    float distToCircle = dist(point, float2(0.5 * width, 0.5 * height), 0.25 * width);
+    float distToCircle2 = dist(point, float2(0.4 * width, 0.6 * height), 0.25 * width);
+    bool inside = distToCircle2 < -1;
+    bool outside = distToCircle2 >= 0;
+    if (inside) {
+        output.write(float4(0), gid);
+    } else if (outside) {
+        output.write(float4(1, 0.7, 0, 1) * (1 - distToCircle / pow(width * width + height * height, 0.5)), gid);
+    } else {
+        output.write(float4(0.5, 0.35, 0, 1), gid);
+    }
     
 }
 
