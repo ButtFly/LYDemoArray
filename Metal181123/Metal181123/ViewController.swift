@@ -28,11 +28,13 @@ class ViewController: UIViewController, MTKViewDelegate {
     func readyMetal() -> Void {
         
         self.view.addSubview(self.mtkView)
+        self.mtkView.delegate = self
+        self.mtkView.framebufferOnly = false
         guard let device = MTLCreateSystemDefaultDevice() else {
             print("不支持的设备，真机才可以")
             return
         }
-        guard let cpFunc = device.makeDefaultLibrary()?.makeFunction(name: "") else {
+        guard let cpFunc = device.makeDefaultLibrary()?.makeFunction(name: "drawPoints") else {
             return
         }
         self.mtkView.device = device
@@ -60,11 +62,12 @@ class ViewController: UIViewController, MTKViewDelegate {
         bufferEncoder.endEncoding()
         commendBuffer.present(drawable)
         commendBuffer.commit()
+        self.mtkView.isPaused = true
         
     }
     
     func mtkView(_ view: MTKView, drawableSizeWillChange size: CGSize) {
-        
+        self.mtkView.isPaused = false
     }
 
 }
