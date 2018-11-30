@@ -1,5 +1,9 @@
 import MetalKit
 import simd
 
-let point = float2([375, 680])
-let cv_point = point - float2([Float(0.5 * 375), Float(0.5 * 680)])
+let point_a = float3([1, 1, 0])
+let point_b = float3([1, 1, 0])
+point_a * point_b
+dot(point_a, point_b)
+length(point_a)
+length(point_b)
