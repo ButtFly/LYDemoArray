@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06324C9B21C0DC1A00414CB2 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 06324C9A21C0DC1A00414CB2 /* Shader.metal */; };
 		0681365D21AE8EAC007CFFB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681365C21AE8EAC007CFFB3 /* AppDelegate.swift */; };
 		0681365F21AE8EAC007CFFB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681365E21AE8EAC007CFFB3 /* ViewController.swift */; };
 		0681366221AE8EAC007CFFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0681366021AE8EAC007CFFB3 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06324C9A21C0DC1A00414CB2 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 		0681365921AE8EAC007CFFB3 /* BrushDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrushDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0681365C21AE8EAC007CFFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0681365E21AE8EAC007CFFB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				0681366521AE8EAE007CFFB3 /* LaunchScreen.storyboard */,
 				0681366821AE8EAE007CFFB3 /* Info.plist */,
 				0681368A21AE8F11007CFFB3 /* Brush.swift */,
+				06324C9A21C0DC1A00414CB2 /* Shader.metal */,
 			);
 			path = BrushDemo2;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06324C9B21C0DC1A00414CB2 /* Shader.metal in Sources */,
 				0681368B21AE8F11007CFFB3 /* Brush.swift in Sources */,
 				0681365F21AE8EAC007CFFB3 /* ViewController.swift in Sources */,
 				0681365D21AE8EAC007CFFB3 /* AppDelegate.swift in Sources */,
